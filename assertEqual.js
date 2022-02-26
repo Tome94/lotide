@@ -3,7 +3,7 @@ let emojiHappy = String.fromCodePoint(0x1F603);
 
 const assertEqual = function(actual, expected) {
   if (actual  === expected) {
-    console.log(emojiHappy + "Assertion passed: " + actual + " === " + expected);
+    console.log(`${emojiHappy} Assertion passed: ${actual} === ${expected}`);
   } else {
     console.log(emojiMad + "Assertion failed: " + actual + " !== " + expected);
   }
